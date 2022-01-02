@@ -1,34 +1,105 @@
-<!DOCTYPE html>
-<html>
+<!Doctype html>  
+<html>  
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script type = "text/javascript" src="tstjq.js"></script>  
-<title>Home | Devil May Crie</title>
-<link rel="stylesheet" href="stylesheet.css">
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<script type = "text/javascript" src="script.js"></script>  
+<link rel="stylesheet" href="styles.css">  
+<title>Devil May Crie 5</title>
+</head>  
+
 <body>
 <header>
 
     <div class="topnav">
-	    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-	 	<img src="arrow.png" width="20" height="25">
-	    </a>
-	    
-	    <a href="tst.html">HOME</a>
-	    
-	    <div id="pages">
-		<a href="about.html">ABOUT</a>
-		<a href="tst.html">CHARACTERS</a>
-		<a href="tst.html">REQUIREMENTS</a>
-	    </div>
-	    
-	    <div id="regs">
-		<a href="tst.html">REGISTER</a>
-	    </div>
-	</div>
+      <!-- <h1>Devil May Crie 5</h1> -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="images/arrow2.png" width="20" height="20">
+      </a>
+
+      <a href="index.html">HOME</a>
+      
+      <div id="pages">
+        
+        <a href="about.html">ABOUT</a>
+        <a href="char.html">CHARACTERS</a>
+        <a href="require.html">REQUIREMENTS</a>
+      </div>
+
+      <div id="regs">
+        <a href="register.html">REGISTER</a>
+      </div>
+
+    </div>
 
 </header>
 
+  <div>
+      <img id="banner" src="images/main.png">
+  </div>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides">
+      <img src="images/preview1.jpg" style="width:100%">
+      <div id="text">GAME PREVIEW</div>
+    </div>
+            
+    <div class="mySlides">
+      <img src="images/preview4.jpg" style="width:100%">
+      <div id="text">GAME PREVIEW</div>
+    </div>
+            
+    <div class="mySlides">
+      <img src="images/preview3.jpg" style="width:100%">
+      <div id="text">GAME PREVIEW</div>
+    </div>
+          
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  
+    <div class="about-image">
+      <img src="images/game.png" width="100%">
+      <div id="about-box">
+        The heart of the game
+      </div>
+    </div>
+
+    <div class="char-image">
+      <img src="images/char.png" style="width:100%">
+      <div id="char-box">
+        Meet the playable characters
+      </div>
+    </div>
+
+    <div class="system-image">
+      <img src="images/test.png" style="width:100%">
+      <div id="system-box">
+        Required system to play
+      </div>
+    </div>
+
+  <br>
+  <br>
+  
+
+
 </body>
+<footer>
+
+    <div>
+      <img id="bottom-logo" src="images/Logo2.png">
+    </div>
+
+</footer>
 </html>
