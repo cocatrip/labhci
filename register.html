@@ -1,123 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Register</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/regisStyles.css">
-    <script src="js/drop.js"></script>
-    <title>Devil May Crie 5 | Register</title>
-</head>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/navbar.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/regisStyles.css" />
+        <script src="js/drop.js"></script>
+        <title>Devil May Crie 5 | Register</title>
+    </head>
 
-<header>
-    <div class="topnav">
-        <br>
-        <a href="index.html">HOME</a>
-        <a href="about.html">ABOUT</a>
+    <header>
+        <div class="topnav">
+            <br />
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
 
+            <div class="dropdown">
+                <button onclick="dropdownmenu()" class="dropdownbutton">
+                    MORE
+                </button>
+                <div id="drop-down" class="dropdown-menu">
+                    <a href="char.html">CHARACTERS</a>
+                    <a href="require.html">REQUIREMENTS</a>
+                    <a href="system.html">SYSTEM</a>
+                </div>
+            </div>
+        </div>
+        <br />
+    </header>
 
-        <div class="dropdown">
-            <button onclick="dropdownmenu()" class="dropdownbutton">MORE</button>
-            <div id="drop-down" class="dropdown-menu">
-                <a href="char.html">CHARACTERS</a>
-                <a href="require.html">REQUIREMENTS</a>
-                <a href="system.html">SYSTEM</a>
+    <body>
+        <div class="regs-menu">
+            <p>FILL THE FORM BELOW TO CREATE YOUR ACCOUNT</p>
+        </div>
 
+        <form name="regis-form">
+            <div class="form">
+                <label for="full-name" id="name">Full Name</label>
+                <input type="text" name="name" id="form-name" />
+            </div>
+
+            <div class="form">
+                <label for="gender" id="gender">Gender</label>
+                <br />
+
+                <span class="fill"></span>
+                <input type="radio" class="gender male-gender" name="gender" />
+                <label class="sex-gender" value="1" id="form-gender">
+                    Male
+                </label>
+
+                <span class="fill"></span>
+                <input type="radio" class="gender female-gender" name="gender" />
+                <label class="sex-gender" value="2" id="form-gender">
+                    Female
+                </label>
+            </div>
+
+            <div class="form">
+                <label for="email" id="e-mail">Email</label>
+                <input type="text" name="email" id="form-email" />
+            </div>
+
+            <div class="form">
+                <label for="password" id="pwd">Password</label>
+                <input type="password" name="password" id="form-pass" />
+            </div>
+
+            <div class="form">
+                <label for="address" id="addr">Address</label>
+                <input type="text" name="address" id="form-address" />
+            </div>
+
+            <div class="formbox">
+                <input type="checkbox" name="terms" id="agree" />
+                <label for="check-box" id="yes">
+                    I agree to the Terms & Conditions
+                </label>
+            </div>
+
+            <br />
+        </form>
+
+        <div class="regs-button">
+            <button type="submit" class="trigger register-form">
+                REGISTER
+            </button>
+            <div class="modal">
+                <div class="modal-content">
+                    <span class="close-button">&times;</span>
+                    <br />
+                    <br />
+                    <h2>Thank you for registering!</h2>
+                    <br />
+                    <br />
+                    <button type="submit" class="ok register-form">Ok</button>
+                </div>
             </div>
         </div>
 
+        <br />
 
-        <!-- <a href="register.html">
-            <button class="register">
-                REGISTER
-            </button>
-        </a> -->
-    </div>
-    <br>
-      
-</header>
+        <footer>
+            <div class="dev">
+                <i>TASLEN</i>
+            </div>
 
-<body>
+            <div class="bottom-logo">
+                <img src="img/Logo2.png" />
+            </div>
 
-    <div class="regs-menu">
-        <p>FILL THE FORM BELOW TO CREATE YOUR ACCOUNT</p>
-    </div>
-
-    <form name="regis-form" onsubmit="return Validate();">
-
-        <div class="form">
-            <label for="full-name" id="name">Full Name</label>
-            <input type="text" name="name" id="form-name">
-        </div>
-
-        <div class="form">
-            <label for="gender" id="gender">Gender</label>
-            <br>
-            
-            <span class="fill"></span>
-            <input type="radio" class="male-gender" name="gender">
-            <label class="sex-gender" value="1" id="form-gender">Male</label>
-            
-            <span class="fill"></span>
-            <input type="radio" class="female-gender" name="gender">
-            <label class="sex-gender" value="2" id="form-gender">Female</label>
-        </div>
-
-        <div class="form">
-            <label for="email" id="e-mail">Email</label>
-            <input type="text" name="email" id="form-email">
-        </div>
-
-        <div class="form">
-            <label for="password" id="pwd">Password</label>
-            <input type="password" name="password" id="form-pass">
-        </div>
-
-
-        <div class="form">
-            <label for="address" id="addr">Address</label>
-            <input type="text" name="address" id="form-address">
-        </div>
-
-        <div class="formbox">
-            <input type="checkbox" name="terms" id="agree">
-            <label for="check-box" id="yes">I agree to the Terms & Conditions</label>
-        </div>
-
-        <br>
-
-        <div class="regs-button">
-            <button type="submit" class="register-form">REGISTER</button>
-        </div>
-    </form>
-
-    <br>
-
-    
-
-
-
-    <footer>
-        <div class="dev">
-            <!-- <h1>TASLEN</h1> -->
-            <i>TASLEN</i>
-        </div>
-
-
-        <div class="bottom-logo">
-            
-            <img src="img/Logo2.png">
-            
-        </div>
-        
-        <div class="copyright">
-            ©Copyright 2022
-        </div>
-    
-    </footer>
-    <script src="js/regis.js"></script>
-</body>
+            <div class="copyright">©Copyright 2022</div>
+        </footer>
+        <script src="js/regis.js"></script>
+    </body>
 </html>
