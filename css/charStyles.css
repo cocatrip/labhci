@@ -1,0 +1,17 @@
+.char-card {
+    width: 70%;
+    margin: auto;
+    border: solid rgb(52, 55, 54) 2px;
+}
+
+.char-card img {
+    width: 100%;
+}
+
+.char-card p {
+    color:yellow;
+    font-size: 50px;
+    /* border: solid tomato 2px; */
+    font-family: 'Calibri';
+    text-align: center;
+}

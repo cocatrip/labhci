@@ -1,0 +1,44 @@
+.sys-title {
+    margin: auto;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    font-family: 'Calibri';
+}
+
+.system-title {
+    margin: auto;
+    font-size: 40px;
+    color: rgb(64, 223, 64);
+    text-align: center;
+    font-family: 'Calibri';
+}
+
+.min-req {
+    width: 40%;
+    border: solid rgb(51, 97, 140) 2px;
+    margin: auto;
+    padding: 10px;
+}
+
+.recc-req {
+    width: 40%;
+    border: solid rgb(51, 97, 140) 2px;
+    margin: auto;
+    padding: 10px;
+}
+
+.specs {
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Arial';
+    text-align: center;
+    margin: 10px 0px;
+    /* margin-bottom: 20px; */
+}
+
+.specs p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Calibri';
+}

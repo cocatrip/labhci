@@ -1,0 +1,68 @@
+Sumber gambar: 
+
+• main.png, kemudian digabung dengan Logo2.png: 
+https://akurat.co/begini-urutan-jalan-cerita-game-devil-may-cry
+
+• char.png, kemudian diflip secara horizontal dan dicrop sesuai kebutuhan: 
+https://goombastomp.com/devil-may-cry-5/
+
+• test.png, kemudian dicrop sesuai kebutuhan: 
+https://www.gq-magazine.co.uk/article/devil-may-cry-5-review
+
+• game.png, kemudian dicrop sesuai kebutuhan: 
+https://tasta.me/review-devil-may-cry-5-afd1b804d600
+
+• preview1.jpg: 
+https://wccftech.com/devil-may-cry-5-upcoming-mod-will-make-the-final-boss-playable/
+
+• preview2.jpg: 
+https://bloody-disgusting.com/video-games/3524492/capcom-reveals-devil-may-cry-5-gameplay-footage/
+
+• preview3.jpg, ada di slide ke 13: 
+https://www.polygon.com/2018/8/21/17764084/devil-may-cry-5-release-date-gameplay-video-gamescom-2018
+
+• preview4.jpg: 
+https://www.videogameschronicle.com/review/review-devil-may-cry-5/
+
+• Coding referensi untuk IMAGE SLIDER: 
+https://www.w3schools.com/w3css/w3css_slideshow.asp
+
+• Coding referensi untuk DROPDOWN MENU: 
+https://www.w3schools.com/howto/howto_js_dropdown.asp
+===============================================================
+• about-img.webp: 
+https://gameup24.wordpress.com/2019/03/06/devil-may-cry-5-review/
+
+• Isi About page diambil dari, yang kemudian diedit sesuai kebutuhan kami: 
+https://tasta.me/review-devil-may-cry-5-afd1b804d600
+
+• Info mengenai system requirements diambil dari: 
+https://www.systemrequirementslab.com/cyri/requirements/devil-may-cry-5/18123
+
+• Isi SYSTEM page diambil dan diedit dari: 
+https://www.devilmaycry5.com/
+===============================================================
+• dante.webp: 
+https://au.pcmag.com/pc-games/57444/devil-may-cry-5-10-gameplay-elements-capcom-must-add?p=1
+
+• nero2.webp: 
+https://au.pcmag.com/pc-games/57444/devil-may-cry-5-10-gameplay-elements-capcom-must-add?p=1
+
+• vchar.jpg: 
+https://www.gq-magazine.co.uk/article/devil-may-cry-5-review
+================================================================
+• palace.png: 
+https://www.gamereactor.asia/devil-may-cry-5-dapatkan-mode-bloody-palace-april-nanti/
+
+• cameo.webp: 
+https://www.polygon.com/guides/2019/3/8/18254687/dmc-5-characters-nero-devil-breaker-red-queen-blue-rose-dante-styles-v-griffon-shadow-nightmare
+
+• assist.jpeg: 
+https://variety.com/2018/gaming/news/dmc-5-interview-1202915772/
+
+• photo.webp: 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fgearnuke.com%2Fdevil-may-cry-5photo-mode-leaked-screenshot-rumor%2F&psig=AOvVaw3C_JTjGSaf9oahcF4_7DoE&ust=1642610333136000&source=images&cd=vfe&ved=2ahUKEwixrMe83rv1AhXKiuYKHRAOAZoQr4kDegUIARDGAQ
+
+• void.jpg: 
+https://www.crunchyroll.com/anime-news/2018/11/11/enter-the-void-in-devil-may-cry-5-developer-diary
+===============================================================

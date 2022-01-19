@@ -1,0 +1,22 @@
+.game-title {
+    color: rgb(192, 43, 43);
+    font-size: 50px;
+    font-family: 'Calibri';
+    margin-left: 15%;
+}
+
+.sys-feature {
+    width: 70%;
+    border: solid slateblue 2px;
+    margin: auto;
+}
+
+.sys-feature img{
+    width: 100%;
+}
+
+.sys-feature p {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}

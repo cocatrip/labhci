@@ -1,123 +1,114 @@
-<!Doctype html>  
-<html>  
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">  
-<script type = "text/javascript" src="script.js"></script>  
-<link rel="stylesheet" href="styles.css">  
-<title>Devil May Crie 5</title>
-</head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/drop.js"></script>
+    <title>Document</title>
+</head>
 
-<body>
 <header>
-
     <div class="topnav">
-      <!-- <h1>Devil May Crie 5</h1> -->
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <img src="images/arrow2.png" width="20" height="20">
-      </a>
-
-      <a href="index.html">HOME</a>
-      
-      <div id="pages">
-        
+        <br>
+        <a href="index.html">HOME</a>
         <a href="about.html">ABOUT</a>
-        <a href="char.html">CHARACTERS</a>
-        <a href="require.html">REQUIREMENTS</a>
-      </div>
 
-      <div id="regs">
-        <a href="register.html">REGISTER</a>
-      </div>
 
+        <div class="dropdown">
+            <button onclick="dropdownmenu()" class="dropdownbutton">MORE</button>
+            <div id="drop-down" class="dropdown-menu">
+                <a href="char.html">CHARACTERS</a>
+                <a href="require.html">REQUIREMENTS</a>
+                <a href="system.html">SYSTEM</a>
+            </div>
+        </div>
+
+
+        <a href="register.html">
+            <button class="register">
+                REGISTER
+            </button>
+        </a>
     </div>
+    <br>
 
 </header>
+    
+    <!-- <div> -->
+<body>
 
-  <div>
-      <img id="banner" src="images/main.png">
-  </div>
-
-  <!-- <div class="slideshow-container">
-
-    <div class="mySlides">
-      <img src="images/preview1.jpg" style="width:100%">
-      <div id="text">GAME PREVIEW</div>
+    <div class="banner">
+        <img src="img/main.png">
     </div>
+    <br>
+
+
+
+    <!-- <style></style> -->
+    <div class="slider">
+        <img class="imgslider" src="img/preview1.jpg">
+        <img class="imgslider" src="img/preview4.jpg">
+        <img class="imgslider" src="img/preview3.jpg">
+        <!-- <div class="text">GAME PREVIEW</div> -->
+    
+        <div class="detail">
+            <button class="previ" onclick="plusDivs(-1)">&#10094;</button>
+            <div class="text">GAME PREVIEW</div>
+            <button class="nexti" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </div>
+    <script src="js/slider.js"></script>
+
+    <br>
+
+
+    <!-- </div> -->
+    <div class="section">
+        <div class="card1">
+            <img src="img/game.png">
+            <a href="about.html">The heart of the game</a>
+            <!-- <p class="price">The heart of the game</p> -->
+        </div>
+        <!-- <br> -->
+
+        <div class="card2">
+            <img src="img/char.png">
+            <a href="char.html">Meet the characters</a>
+            <!-- <p class="price">Meet the playable characters</p> -->
+        </div>
+        <!-- <br> -->
+
+        <div class="card3">
+            <img src="img/test.png">
+            <a href="require.html">System requirements</a>
+            <!-- <p class="price">Required system to play</p> -->
+        </div>
+    </div>
+    <br>
+
+    <footer>
+        <div class="dev">
+            <!-- <h1>TASLEN</h1> -->
+            <i>TASLEN</i>
+        </div>
+
+
+        <!-- TASLEN -->
+        <div class="bottom-logo">
+            <!-- <p>TASLEN</p> -->
             
-    <div class="mySlides">
-      <img src="images/preview4.jpg" style="width:100%">
-      <div id="text">GAME PREVIEW</div>
-    </div>
+            <img src="img/Logo2.png">
             
-    <div class="mySlides">
-      <img src="images/preview3.jpg" style="width:100%">
-      <div id="text">GAME PREVIEW</div>
-    </div>
-          
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-  </div> -->
-
-    <div class="slide-container">
-      <div class="slide fade">
-        <img src='images/preview1' alt=''>
-      </div>
-      <div class="slide fade">
-        <img src='images/preview2' alt=''>
-      </div>
-      <div class="slide fade">
-        <img src='images/preview3' alt=''>
-      </div>
-      <div class="slide fade">
-        <img src='images/preview4' alt=''>
-      </div>
-
-      <a href="#" class="prev" title="Previous">&#10094</a>
-      <a href="#" class="next" title="Next">&#10095</a>
-    </div>
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
-
-  
-    <div class="about-image">
-      <img src="images/game.png" width="100%">
-      <div id="about-box">
-        The heart of the game
-      </div>
-    </div>
-
-    <div class="char-image">
-      <img src="images/char.png" style="width:100%">
-      <div id="char-box">
-        Meet the playable characters
-      </div>
-    </div>
-
-    <div class="system-image">
-      <img src="images/test.png" style="width:100%">
-      <div id="system-box">
-        Required system to play
-      </div>
-    </div>
-
-  <br>
-  <br>
-  
-
-
+        </div>
+        
+        <div class="copyright">
+            ©Copyright 2022
+        </div>
+    
+    </footer>
+    
 </body>
-<footer>
-
-    <div>
-      <img id="bottom-logo" src="images/Logo2.png">
-    </div>
-
-</footer>
 </html>

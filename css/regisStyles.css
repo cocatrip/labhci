@@ -1,0 +1,153 @@
+.form {
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: 'Arial';
+    font-size: 40px;
+    color: white;
+    
+}
+
+.register-form {
+    background-color: rgb(60, 5, 60);
+    border: none;
+    border: 2px solid yellow;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px 10px;
+    /* margin-left: 20px; */
+    margin-left: 40%;
+}
+
+.regs-menu p{
+    font-size: 30px;
+    color: greenyellow;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Name form */
+#name {
+    margin-left: 20%;
+    
+}
+
+#form-name {
+    width: 60%;
+    font-size: 30px;
+    margin-left: 20%;
+
+}
+
+/* Gender form */
+
+.fill {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.sex-gender {
+    position: relative;
+    /* cursor: pointer; */
+    /* padding-left: 35px; */
+    /* margin-bottom: 120px;
+    
+    font-size: 40px; */
+}
+
+#gender {
+    margin-left: 20%;
+}
+
+.male-gender {
+    /* width: 40%; */
+    /* transform: scale(2); */
+    /* margin-bottom: 50px; */
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+.male-gender:after {
+    content: "";
+    position: absolute;
+    /* display: none; */
+}
+
+.female-gender {
+    /* width: 40%; */
+    /* transform: scale(2); */
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+/* .female-gender:after {
+    content: "";
+    position: absolute;
+    display: none;
+} */
+
+
+
+/* Email form */
+
+#e-mail {
+    margin-left: 20%;
+  
+}
+
+#form-email {
+    width: 60%;
+    font-size: 30px;
+    margin-left: 20%;
+}
+
+/* Password form */
+
+#pwd {
+    margin-left: 20%;
+}
+
+#form-pass {
+    width: 60%;
+    font-size: 30px;
+    margin-left: 20%;
+}
+
+/* Address form */
+
+#addr {
+    margin-left: 20%;
+}
+
+#form-address {
+    width: 60%;
+    font-size: 30px;
+    margin-left: 20%;
+}
+
+/* Checkbox */
+
+.formbox {
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: 'Arial';
+    font-size: 30px;
+    color: white;
+}
+
+#agree {
+    margin-left: 20%;
+}
+
+.error {
+  width  : 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
